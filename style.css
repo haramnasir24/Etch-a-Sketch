@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#input {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#btn {
+    margin-left: 550px;
+    background-color: rgb(255, 192, 203);
+    font-size: larger;
+    padding: 5px;
+}
+
+.grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+.grid-item {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
